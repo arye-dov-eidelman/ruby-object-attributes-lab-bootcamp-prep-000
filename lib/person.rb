@@ -1,9 +1,15 @@
 class Person
-  
-  def talk
-    puts "Hello World!"
+  def name=(name)
+    @name = name
   end
-  def walk
-    puts "The Person is walking"
+  def name
+    @name
+  end
+  
+  def breed=(breed)
+    @breed = breed
+  end
+  def breed
+    @breed
   end
 end
